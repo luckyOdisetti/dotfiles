@@ -1,0 +1,141 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    // "editor.fontSize": 12,
+    // "editor.lineHeight": 16,
+    "editor.fontFamily": "Dank Mono",
+    "editor.lineNumbers": "on",
+    "editor.folding": true,
+    "editor.glyphMargin": false,
+    "editor.guides.indentation": false,
+    "files.autoSave": "onFocusChange",
+    // "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": true
+    // },
+    "eslint.workingDirectories": ["./frontend", "./frontend/src/rn", "./api"],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1b1e2b",
+        /// ""ditor.background"" ""#23273a""
+        /// ""ditor.background"" ""#1e2130""
+        "statusBar.background": "#81c3fa",
+        "statusBar.foreground": "#000000"
+    },
+    "editor.tokenColorCustomizations": {
+        "TextMateRules": [
+            {
+                "scope": [
+                    ///following will be in italic (=FlottFlott)/
+                    "comment",
+                    /// ""ntity.name.type.class"" //class names/
+                    /// ""eyword"" //import, export, return…/
+                    "constant", ///String, Number, Boolean…, this, super/
+                    "storage.modifier", ///static keyword/
+                    "storage.type.class.js" ///class keyword/
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    ///following will be excluded from italics (VSCode has some defaults for italics)/
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "HTML Attributes",
+                "scope": ["entity.other.attribute-name"],
+                "settings": {
+                    "fontStyle": "italic"
+                    /// "foreground": "#9cb6c7"/
+                }
+            },
+            {
+                "name": "HTML Tags",
+                "scope": ["entity.name.tag"],
+                "settings": {
+                    /// ""oreground"" ""#c0def0""
+                }
+            }
+        ]
+    },
+    "window.zoomLevel": 1,
+    "jetbrainsKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "javascript.validate.enable": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": true,
+    "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontSize": 16,
+    // "terminal.integrated.fontSize": 11,
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "file",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "go.docsTool": "gogetdoc",
+    "gitlens.hovers.enabled": false,
+    "gitlens.views.repositories.files.layout": "tree",
+    "workbench.sideBar.location": "left",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "leetcode.workspaceFolder": "/Users/lucky/LeetCode",
+    "leetcode.defaultLanguage": "javascript",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "workbench.editor.showTabs": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sync.autoUpload": true,
+    "sync.gist": "4a4a950d9a63469bcd50a5c3926ce621",
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.tabs.enabled": false,
+    "explorer.confirmDelete": false
+}
