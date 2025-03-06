@@ -1,0 +1,144 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 17,
+    "editor.fontFamily": "Dank Mono",
+    "editor.lineNumbers": "on",
+    "editor.folding": true,
+    "editor.glyphMargin": false,
+    "editor.guides.indentation": false,
+    "files.autoSave": "onFocusChange",
+    "eslint.workingDirectories": [
+        "./frontend",
+        "./frontend/src/rn",
+        "./api"
+    ],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "debug.internalConsoleOptions": "neverOpen",
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1b1e2b",
+        "statusBar.background": "#81c3fa",
+        "statusBar.foreground": "#000000"
+    },
+    "editor.tokenColorCustomizations": {
+        "TextMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type.class.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "HTML Attributes",
+                "scope": [
+                    "entity.other.attribute-name"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "HTML Tags",
+                "scope": [
+                    "entity.name.tag"
+                ],
+                "settings": {}
+            }
+        ]
+    },
+    "jetbrainsKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "javascript.validate.enable": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontSize": 14,
+    "go.lintOnSave": "file",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "go.docsTool": "gogetdoc",
+    "gitlens.hovers.enabled": false,
+    "gitlens.views.repositories.files.layout": "tree",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "leetcode.workspaceFolder": "/Users/lucky/LeetCode",
+    "leetcode.defaultLanguage": "javascript",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.hint.commentDescription": false,
+    "workbench.editor.showTabs": "single",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sync.autoUpload": true,
+    "sync.gist": "4a4a950d9a63469bcd50a5c3926ce621",
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.tabs.enabled": false,
+    "explorer.confirmDelete": false,
+    "gitlens.statusBar.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    "hardhat.telemetry": false,
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    "solidity.telemetry": false,
+    "terminal.integrated.env.osx": {},
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "window.zoomLevel": 1,
+    "prisma.showPrismaDataPlatformNotification": false
+}
